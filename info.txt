@@ -1,0 +1,25 @@
+===== color scheme =====
+
+lightest green #EBF7E3
+
+light green #9BD770
+
+green #66B032
+
+dark green #375F1B
+
+very dark #1B3409
+
+====== blue shades ======
+
+lightest blue #E2EFFD
+
+sky blue #6395F2
+
+royal blue #1258DC
+
+dark blue #0A337F
+
+blue for button #1363BE
+
+darkest blue #091834
