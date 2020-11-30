@@ -1,0 +1,369 @@
+.bg-dark{
+    /* background-color: yellow !important; */
+}
+
+html, body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Grenze Gotisch', cursive !important;
+}
+
+
+body h1,h2,h3,h4,h5,h6,p {
+      font-family: 'Grenze Gotisch', cursive !important;
+}
+
+.main-nav{
+    background-image: url(img/hdr-ftr-bg.jpeg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-size: 24px;
+    text-align: center;
+}
+
+.tagline{
+    color: honeydew;
+}
+
+.breadcrumb{
+    background-color:#E2EFFD !important ;
+    margin: 0 !important;
+    padding: 15px;
+    font-size: 18px;
+}
+
+
+.jumbotron{
+    background-image: url(img/hero2.jpg) !important;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-width: 100%;
+    height: auto;
+
+}
+
+.jumbotron p{
+    color: white;
+}
+
+.jumbotron h1{ 
+    color: white;
+}
+
+/* ===== slider ===== */
+
+.d-block {
+    height: 550px;
+}
+
+
+/* ================ home =============== */
+
+.home{
+    text-align: center;
+    background-image: url(img/bgIntroYourBizz\ \(1\).jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    color:white;
+}
+
+.homeParagraph{
+    background-color: rgba(0,0,0, 0.6);
+    padding: 4%;
+    margin: 5%;
+    border: 6px solid white;
+}
+
+/* ========== fix buttons ========= */
+.fix-btn{
+    display: inline-block;
+    z-index: 99;
+    background-color: transparent;
+}
+
+/* our services */
+
+.service-heading{
+    text-align: center;
+    
+}
+#service-heading{
+    text-align: center;
+    font-family: 'Grenze Gotisch', cursive;
+    font-size: 46px;
+
+}
+
+
+.bg-service{
+    background-image: url(img/bg-services.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.bg-service p{
+    font-family: 'Grenze Gotisch', cursive;   
+    font-weight: 500 !important;
+    font-size: 24px;
+    line-height: 160%;
+}
+
+
+.bg-service h2{
+    font-family: 'Grenze Gotisch', cursive;   
+    font-size: 44px;
+}
+
+.service-description{
+    background-image: url(img/bg-feather.jpg);
+    background-attachment: fixed;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+/* about */
+
+#about-section{
+    text-align: center;
+    line-height: 0.7cm;
+    background-image: url(img/hero\ img.jpg);
+    background-attachment: fixed;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* height: 300px; */
+    padding: 15px;
+    /* height: 100%; */
+    background-position-y: 100%;
+}
+
+#about-section p{
+    font-size: larger;
+    font-weight: 500;
+}
+
+
+
+/* ===================== packages ================= */
+
+.pkg-main{
+    background-image: url(img/sky-blue-grad.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: -25px;
+    padding-top: 10px;
+}
+
+
+.pkg-heading{
+    text-align: center;
+    color: black;
+}
+
+.crd{
+    margin-top: 8px;
+    margin-bottom: 8px;
+    transition: transform 1s ;
+}
+
+.crd:hover{
+    transform: scale(1.1);
+    /* margin: 1%; */
+    box-shadow: 0px 0px 14px 8px gray;
+    /* opacity: 0.9; */
+}
+
+
+.pkg-section{
+height: auto;
+width: 100%;
+padding-bottom: 40px;
+display: flex;
+flex-wrap: wrap;
+justify-content: space-around;
+align-items: flex-start;
+}
+
+.list-group-item{
+    font-size: 18px;
+}
+
+
+.list-color-1{
+    background-color: #D3D3D3 !important;
+}
+
+.list-color-2{
+    background-color: #D3D3D3 !important;
+}
+
+.list-color-3{
+    background-color: #D3D3D3 !important;
+}
+
+/* ========================= secret ====================== */
+
+.secret-sec{
+    text-align: center;
+    color: white;
+    background-image: url(img/bgSecret\ \(1\).jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+    padding: 2%;
+
+}
+
+.secret{
+    font-size: 26px;
+    padding: 20px;
+}
+
+.secret-sec-paragraph{
+    background-color: rgba(0, 0, 0, 0.6);
+    margin: 5%;
+    padding: 4%;
+    border: 4px outset white;
+}
+
+/* ===== footer ===== */
+.footer{
+    /* background-color: #091834; */
+    background-image: url(img/hdr-ftr-bg.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: auto;
+    width: 100%;
+    padding: 20px;
+    margin-top: -20px;
+    color: white;
+}
+
+.blockOne{
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.footer a{
+    color: white;
+    text-decoration: none;
+}
+
+.footerIcons{
+    width: 25px;
+    height: auto;
+}
+
+.footerIconsList{
+    list-style-type: none;
+    margin: 10px;
+} 
+
+.icons{
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.credits{
+    text-align: justify;
+
+}
+
+/* ========================= copyright ======================= */
+
+.copyright{
+    text-align: center;
+    font-size: large;
+}
+
+
+/* ==================== contact page ================ */
+
+.contact-section{
+    height: 80vh;
+    width: 100%;
+    overflow:auto;
+    background-image: url(img/sky-blue-grad.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}
+
+/* .contact-box{
+    display: flex !important;
+    flex-wrap: wrap !important ;
+    
+} */
+
+.map{
+    width: 40vw;
+    height: 45vh;
+
+}
+
+/* =============================== turn off parallax for mobiles =========================== */
+
+@media only screen and (max-device-width: 390px)
+{
+    #about-section{
+        background-attachment: scroll;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    }   
+
+    .pkg-main{
+        background-attachment: scroll;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .secret-sec{
+        background-attachment: scroll;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .home{
+        background-attachment: scroll;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .service-description{
+        background-attachment: scroll;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .bg-service{
+        background-attachment: scroll;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+}
